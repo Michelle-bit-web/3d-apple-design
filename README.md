@@ -46,16 +46,19 @@ This project is an Apple-style landing page showcasing an interactive 3D MacBook
 
 ## 🛠️ Tech Stack
 
-| Technology                                                   | Purpose                                        |
-| ------------------------------------------------------------ | ---------------------------------------------- |
-| [React 19](https://react.dev/)                               | UI Framework                                   |
-| [Vite](https://vitejs.dev/)                                  | Build tool & dev server                        |
-| [Three.js](https://threejs.org/)                             | 3D rendering engine                            |
-| [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber) | React renderer for Three.js                    |
-| [@react-three/drei](https://github.com/pmndrs/drei)          | Helper library for R3F (camera, loaders, etc.) |
-| [Tailwind CSS v4](https://tailwindcss.com/)                  | Utility-first styling                          |
-| [Zustand](https://zustand-demo.pmnd.rs/)                     | Lightweight state management                   |
-| [gltfjsx](https://github.com/pmndrs/gltfjsx)                 | Generates JSX components from GLTF models      |
+| Technology                                                       | Purpose                                        |
+| ---------------------------------------------------------------- | ---------------------------------------------- |
+| [React 19](https://react.dev/)                                   | UI Framework                                   |
+| [Vite](https://vitejs.dev/)                                      | Build tool & dev server                        |
+| [Three.js](https://threejs.org/)                                 | 3D rendering engine. Rendered within Canvas    |
+| [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber)     | React renderer for Three.js                    |
+| [@react-three/drei](https://github.com/pmndrs/drei)              | Helper library for R3F (camera, loaders, etc.) |
+| [Tailwind CSS v4](https://tailwindcss.com/)                      | Utility-first styling                          |
+| [Zustand](https://zustand-demo.pmnd.rs/)                         | Lightweight state management                   |
+| [gltfjsx](https://github.com/pmndrs/gltfjsx)                     | Generates JSX components from GLTF models      |
+| [GSAP](https://gsap.com/)                                        | Animation library for scroll & motion effects  |
+| [@gsap/react](https://gsap.com/resources/react/)                 | Official React integration for GSAP            |
+| [react-responsive](https://github.com/yocontra/react-responsive) | Media query hooks for responsive rendering     |
 
 ---
 
